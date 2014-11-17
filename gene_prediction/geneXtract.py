@@ -48,7 +48,7 @@ while start != -1:
         #fout.write(line)
 
         # Reset search to end of gene
-        lastSTOP = stop
+        lastSTOP = stop + 1
     else:
         # Reset search to just after last start codon.
         lastSTOP = start + 1
